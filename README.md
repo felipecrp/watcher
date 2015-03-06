@@ -18,4 +18,4 @@ How does it works?
 3. The troubleshooter ask permission to access Watcher with one of the users  created by the system administrator.
 4. The user owner approves the access for a period and choose at least one  allowed access policy.
 5. The troubleshooter access Watcher and start in browser query and ssh  manager to access the required servers. With this access he can send  queries and commands to server, but just the one the user created by the system administrator have permission.
-6. The watchers and the user owner can real time monitor the troubleshooter. Depending  on the access policy, some commands sent from troubleshooter need approval. Also, everything is record for future auditing.
+6. The watchers and the user owner can real time monitor the troubleshooter. Depending  on the access policy, some commands sent from troubleshooter need approval. Also, everything is record for future auditing and watchers can any time revoke troubleshooter access.
