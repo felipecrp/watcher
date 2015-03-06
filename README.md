@@ -10,6 +10,9 @@ Imagine troubles on a software and the developer needs production access to fix 
 
 *Disclaimer: Keep in mind that Watcher is in development.*
 
+How does it works?
+------------------
+
 1. The system administrator create users with production access, like a user with permission to query a production database server or to ssh to a production web server. This user don´t need to be root, but just have access for basic incident handler. In fact, you can create as many users as your organization needs. You can create a user with simple access for basic troubleshooting and other with advanced permissions for more complex issues.
 2. The Watcher administrator configure those users on Watcher, setting their  owners and access policies.
 3. The troubleshooter ask permission to access Watcher with one of the users  created by the system administrator.
